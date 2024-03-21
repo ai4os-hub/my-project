@@ -1,5 +1,5 @@
 # My  project
-[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/my-project/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/my-project/job/main/)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/my-project/test)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/my-project/job/main/)
 
 My project to test child template
 
