@@ -1,0 +1,37 @@
+{
+    "title": "My  project",
+    "summary": "My project to test child template",
+    "description": [
+        "my-project is an application using the DEEPaaS API.\n",
+        "My project to test child template"
+    ],
+    "keywords": [
+        "docker",
+        "api-v2"
+    ],
+    "license": "Apache 2.0",
+    "date_creation": "2024-03-21",
+    "sources": {
+        "dockerfile_repo": "https://github.com/ai4os-hub/my-project",
+        "docker_registry_repo": "ai4oshub/my-project",
+        "code": "https://github.com/ai4os-hub/my-project",
+        "ai4_template": "ai4-template-child/2.0.0"
+	},
+    "continuous_integration": {
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/my-project/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/my-project/job/main/"
+    },
+    "tosca": [
+        {
+            "title": "Mesos (CPU)",
+            "url": "https://raw.githubusercontent.com/indigo-dc/tosca-templates/master/deep-oc/deep-oc-marathon-webdav.yml",
+            "inputs": [
+                "rclone_conf",
+                "rclone_url",
+                "rclone_vendor",
+                "rclone_user",
+                "rclone_pass"
+            ]
+        }
+    ]
+}
